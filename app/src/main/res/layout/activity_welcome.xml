@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA      : RAMADHAN"
+        android:textStyle="bold"
+        android:background="#69d2e7"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM           : 171103266"
+        android:textStyle="bold"
+        android:background="#a7dbd8"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL      : madanramadhan2320@gmail.com"
+        android:textStyle="bold"
+        android:background="#e0e4cc"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KELAS     : A4"
+        android:textStyle="bold"
+        android:background="#f38630"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#fa6900"
+        android:paddingBottom="10dp"
+        android:text="ALAMAT : Jl Adisucipto, Gang Melati Indah"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/tvWelcome"
+        />
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="20dp"
+        android:id="@+id/LinearLayout"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout4"
+        >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout5"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/robot" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout5"
+        >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"></LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
